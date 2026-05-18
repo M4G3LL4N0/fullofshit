@@ -1,0 +1,123 @@
+{
+  "project": {
+    "name": "Full of Shit",
+    "folder": "/Users/joshuadavis/startups/fullofshit",
+    "type": "Next.js website + MVP demo",
+    "mission": "A premium startup reality engine that brutally scores startup ideas and eliminates bad ones before they waste founder time."
+  },
+  "positioning": {
+    "not": [
+      "a generic startup idea generator",
+      "a motivational product",
+      "a vague SaaS template"
+    ],
+    "is": [
+      "a spam filter for startup thinking",
+      "a brutal reality check",
+      "deterministic heuristics (v1), structured reality engine (v2)"
+    ],
+    "core_lines": [
+      "Stop wasting your brain on ideas that do not need to exist.",
+      "We don’t validate ideas. We eliminate bad ones before they kill your time.",
+      "Is this actually forward progress, or disguised repetition?",
+      "Find out if your startup is real or full of shit."
+    ]
+  },
+  "users": [
+    "Founders",
+    "Investors",
+    "Accelerators",
+    "Operators",
+    "Startup studios",
+    "Venture builders"
+  ],
+  "mvp_scope": {
+    "included": [
+      "Single-page premium marketing site (homepage)",
+      "Live analyzer demo component",
+      "Deterministic heuristic scoring in src/lib/analyze.ts",
+      "No auth, no database, no external APIs",
+      "Vercel-ready build output"
+    ],
+    "excluded": [
+      "User accounts / auth",
+      "Payments",
+      "Database storage",
+      "External AI APIs / LLM calls",
+      "Automatic deployments",
+      "Automatic GitHub pushes"
+    ]
+  },
+  "design_direction": {
+    "style": "Premium dark + cinematic",
+    "background": "black/charcoal",
+    "accents": ["gold", "fire orange"],
+    "components": ["glass cards", "cinematic gradients", "bold typography"],
+    "anti_patterns": ["generic SaaS blue template", "cute/soft tone"]
+  },
+  "tech": {
+    "framework": "Next.js (App Router)",
+    "language": "TypeScript",
+    "styling": "Tailwind CSS (v4 CSS import)",
+    "package_manager": "pnpm only",
+    "deployment_target": "Vercel (manual deploy only)"
+  },
+  "preserve": {
+    "must_keep_files": [
+      "RECOVERY_NOTES.md",
+      "AUTOBUILDER_FOUNDATION.json",
+      ".autobuilder/project-state.json",
+      ".autobuilder/next-actions.json",
+      ".autobuilder/guardrails.md"
+    ],
+    "must_keep_features": [
+      "brutal reality-check positioning",
+      "live analyzer demo",
+      "deterministic heuristic scoring"
+    ]
+  },
+  "safety": {
+    "do_not_expose_publicly": [
+      "private founder information",
+      "local paths beyond what is required",
+      "credentials or secrets"
+    ]
+  },
+  "manual_deploy": {
+    "command": "cd /Users/joshuadavis/startups/fullofshit && pnpm install && pnpm build && vercel --prod",
+    "notes": "Do not run vercel automatically."
+  },
+  "disk_cleanup_policy": {
+    "safe_to_delete_if_needed": [
+      "node_modules",
+      ".next",
+      ".turbo",
+      ".vercel/cache",
+      "dist",
+      "build",
+      "coverage",
+      "playwright-report",
+      "test-results",
+      ".cache",
+      ".parcel-cache",
+      ".DS_Store",
+      "*.log"
+    ],
+    "do_not_delete": [
+      "src",
+      "public assets actually used",
+      "package.json",
+      "pnpm-lock.yaml",
+      "tsconfig.json",
+      "next.config.ts",
+      "postcss.config.mjs",
+      "README.md",
+      "RECOVERY_NOTES.md",
+      "AUTOBUILDER_FOUNDATION.json",
+      ".autobuilder",
+      ".gitignore",
+      ".env.example"
+    ]
+  }
+}
+

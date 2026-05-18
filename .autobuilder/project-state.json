@@ -1,0 +1,27 @@
+{
+  "project": "Full of Shit",
+  "status": "mvp",
+  "last_updated": "2026-05-11",
+  "stack": {
+    "framework": "Next.js App Router",
+    "language": "TypeScript",
+    "styling": "Tailwind CSS",
+    "package_manager": "pnpm"
+  },
+  "constraints": [
+    "No auth",
+    "No database",
+    "No external APIs",
+    "pnpm only",
+    "Vercel-ready but manual deploy only",
+    "Do not push automatically"
+  ],
+  "key_files": {
+    "analyzer_logic": "src/lib/analyze.ts",
+    "analyzer_ui": "src/components/Analyzer.tsx",
+    "homepage": "src/app/page.tsx",
+    "foundation": "AUTOBUILDER_FOUNDATION.json",
+    "guardrails": ".autobuilder/guardrails.md"
+  }
+}
+

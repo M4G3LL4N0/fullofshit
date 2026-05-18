@@ -1,0 +1,39 @@
+{
+  "next_actions": [
+    {
+      "id": "tighten-heuristics",
+      "title": "Expand redundancy detection + wedge scoring",
+      "why": "Make the analyzer more sharply penalize commodity buckets and reward provable edges.",
+      "scope": ["src/lib/analyze.ts"],
+      "constraints": ["keep deterministic", "no external APIs"]
+    },
+    {
+      "id": "add-more-samples",
+      "title": "Add more sample ideas and edge-case tests",
+      "why": "Help users self-calibrate by seeing what 'real' vs 'shit' looks like.",
+      "scope": ["src/components/Analyzer.tsx"]
+    },
+    {
+      "id": "seo-polish",
+      "title": "Add OG image + favicon package",
+      "why": "Improve shareability while keeping the site premium.",
+      "scope": ["src/app/layout.tsx", "public/"]
+    },
+    {
+      "id": "microcopy-polish",
+      "title": "Sharpen sections: narrative/activity/reality + engine checks",
+      "why": "Keep copy brutal, specific, and non-generic.",
+      "scope": ["src/app/page.tsx"]
+    }
+  ],
+  "must_avoid": [
+    "generic idea generator behavior",
+    "auth/database/external APIs in v1",
+    "npm usage",
+    "automatic deployment",
+    "automatic GitHub push",
+    "deleting foundation files"
+  ],
+  "manual_deploy_command": "cd /Users/joshuadavis/startups/fullofshit && pnpm install && pnpm build && vercel --prod"
+}
+

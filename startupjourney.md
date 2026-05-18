@@ -13,9 +13,13 @@
 - **Local review command:** `pnpm dev` → http://localhost:3000
 - **Current build status:** **PASS** (2026-05-14)
 - **GitHub remote:** https://github.com/M4G3LL4N0/fullofshit.git
-- **GitHub push status:** Pending this loop
+- **GitHub push status:** Local commit `4904f3d`; no `origin` remote configured
 - **Deployment:** **Not run**
 - **Last updated:** 2026-05-14
+
+- Overall reality label: **VERIFIED (local build) + DEMO (product flows)**
+- Launch readiness: **NOT READY**
+- Proof ladder level: **4 — Local build proof**
 
 ## 2. Portfolio Score
 
@@ -331,3 +335,49 @@ Based on https://fullofshit.noaerth.com (HTTP **200**):
 
 ### Product — deeper #reality-check workflow.
 ### Trust and Safety — Opinionated founder analysis — not legal or investment advice.
+
+## Work completed this loop
+### Portfolio loop (2026-05-16)
+
+- Graphics kit, TrustStrip, SubpageVisual, LOCAL_REVIEW, PROOF_LOOP in place.
+- Build status: see `.noaerth_full_build_status.tsv` at portfolio root.
+- Claim level: DEMO for public metrics unless marked PROVEN below.
+
+
+## 8. Work Completed This Loop (Hyperion v6 — 2026-05-18)
+- Mode: REALITY LABELS + portfolio memory
+- Build matrix: **PASS** (portfolio TSV)
+- Reality labels: snapshot + evidence map normalized
+- Git: see per-project safe commit
+
+## 8. Work Completed This Loop (BlackDiamond v7 — 2026-05-18)
+- Mode: CLAIM REGISTER + FAILURE REGISTER
+- Build matrix: **PASS** (portfolio TSV)
+- Claim register: created/updated
+- Failure register: created/updated
+- Launch gate: LOCAL REVIEW READY if build PASS (not PUBLIC READY)
+- Git: see per-project safe commit
+
+## 8. Work Completed This Loop (EverestKernel v8 — 2026-05-18)
+- Mode: LAUNCH READINESS + REVIEW QUEUE
+- LAUNCH_READINESS.md: installed/updated
+- Build matrix: **PASS**
+- Launch gate: **NOT READY**
+- Review queue: see NOAERTH_REVIEW_QUEUE.md if P1 demo project
+- Deployment: none
+
+## 8. Work Completed This Loop (SovereignCompiler v9 — 2026-05-18)
+- Mode: DECISION RECORD + launch governance
+- DECISION_RECORD.md: installed/updated
+- Build matrix: **PASS** (TSV; spot-build after code changes)
+- AI boundary: no deploy, no vercel --prod
+
+## 8. Work Completed This Loop (SingularityForge v11 — 2026-05-18)
+- Mode: PROOF LADDER + claim safety batch
+- Proof ladder: **4 — Local build proof**
+- Build matrix: **PASS** (TSV; spot-build after code changes)
+- No deploy
+
+## TitanAtlas v13 patch (2026-05-18)
+- Scored total: 58/100 · stage: static demo · priority: P2
+- Recommended action: create MVP surface (/demo)

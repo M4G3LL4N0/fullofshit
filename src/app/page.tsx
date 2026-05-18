@@ -1,4 +1,8 @@
 import { Analyzer } from "@/components/Analyzer";
+import { MarketingGraphicsStack } from "@/components/MarketingGraphicsStack";
+import { ProcessFlowSection } from "@/components/ProcessFlowSection";
+import { HeroProductPanel } from "@/components/HeroProductPanel";
+import { TrustStrip } from "@/components/TrustStrip";
 import { SiteHeader } from "@/components/SiteHeader";
 
 export default function Home() {
@@ -13,6 +17,10 @@ export default function Home() {
       <SiteHeader />
 
       <main className="relative">
+        <div className="mx-auto max-w-6xl px-4 py-4 sm:px-6">
+          <TrustStrip />
+        </div>
+
         <section className="mx-auto w-full max-w-6xl px-6 pb-10 pt-10 sm:pb-16 sm:pt-16">
           <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-xs font-semibold tracking-wide text-white/70 backdrop-blur">
             A spam filter for startup thinking
@@ -262,7 +270,10 @@ export default function Home() {
             </div>
           </div>
         </footer>
-      </main>
+      <section className="mx-auto max-w-6xl px-4 pb-16 pt-8 sm:px-6"><HeroProductPanel /></section>
+      <ProcessFlowSection />
+      <MarketingGraphicsStack />
+    </main>
     </div>
   );
 }
