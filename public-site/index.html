@@ -11,29 +11,24 @@
 html,body{max-width:100%;overflow-x:hidden}
 h1,h2,p,li,a{overflow-wrap:anywhere}
 
-body { margin:0; background:#f3e8ff; color:#1a1024; font:18px/1.4 ui-sans-serif, system-ui; }
-.stage { min-height:100vh; display:grid; place-items:center; padding:24px; }
-.ticket { width:min(560px, 100%); background:#1a1024; color:#f3e8ff; padding:28px; border-radius:18px 18px 8px 8px; }
-hr { border:0; border-top:2px dashed #d8b4fe; margin:16px 0; }
-h1 { font-size:40px; margin:8px 0; }
-h2 { font-size:22px; font-weight:600; }
-.cta { display:inline-block; margin-top:12px; background:#d8b4fe; color:#f3e8ff; text-decoration:none; padding:12px 14px; border-radius:999px; }
-.notes { padding:8px 24px 32px; }
+body { margin:0; background:#d7f6ff; color:#06141a; font:20px/1.4 "Avenir Next", "Segoe UI", sans-serif; }
+.poster { min-height:100vh; display:flex; flex-direction:column; justify-content:flex-end; padding:28px; box-sizing:border-box; }
+.mark { letter-spacing:.22em; text-transform:uppercase; font-size:12px; color:#67e8f9; }
+h1 { font-size:clamp(46px, 8vw, 92px); line-height:.9; max-width:14ch; margin:12px 0; }
+.poster p:last-of-type { max-width:36rem; color:#06141a; }
+.cta { align-self:flex-start; color:#d7f6ff; background:#67e8f9; text-decoration:none; padding:14px 18px; margin:18px 0 8px; }
+#scope { background:#06141a; color:#d7f6ff; padding:28px; }
 
 </style>
 </head>
 <body>
 
-<main class="stage">
-  <section class="ticket">
-    <p>Lab</p>
-    <h1>FullOfShit</h1>
-    <hr />
-    <h2>Find out if a startup idea is real — or just fog.</h2>
-    <p class="lede">A local heuristic engine that flags vague language, missing buyers, crowded categories, and fake differentiation. No API. No database.</p>
-    <a class="cta" href="#scope">Open the stub</a>
-  </section>
+<main class="poster">
+  <p class="mark">FullOfShit · Lab</p>
+  <h1>Find out if a startup idea is real — or just fog.</h1>
+  <p>A local heuristic engine that flags vague language, missing buyers, crowded categories, and fake differentiation. No API. No database.</p>
+  <a class="cta" href="#scope">See the boundary</a>
 </main>
-<section id="scope" class="notes"><ol><li>The page describes the current work. It does not invent customers.</li><li>A live signup, price, or metric appears here only when the product has one.</li><li>Maturity on this page is a label, not a launch claim.</li></ol></section>
+<section id="scope"><h2>Boundary</h2><ol><li>The page describes the current work. It does not invent customers.</li><li>A live signup, price, or metric appears here only when the product has one.</li><li>Maturity on this page is a label, not a launch claim.</li></ol></section>
 </body>
 </html>
