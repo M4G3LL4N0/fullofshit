@@ -74,7 +74,7 @@ Generated from this repository's own source tree: every count, route and module 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/hero-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/hero-light.svg">
-  <img alt="Identity diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/hero.svg">
+  <img alt="Identity diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/hero-motion.svg">
 </picture>
 
 #### Entry points
@@ -82,7 +82,7 @@ Generated from this repository's own source tree: every count, route and module 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/terminal-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/terminal-light.svg">
-  <img alt="Entry points diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/terminal.svg">
+  <img alt="Entry points diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/terminal-motion.svg">
 </picture>
 
 #### Modules
@@ -90,7 +90,7 @@ Generated from this repository's own source tree: every count, route and module 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/architecture-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/architecture-light.svg">
-  <img alt="Modules diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/architecture.svg">
+  <img alt="Modules diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/architecture-motion.svg">
 </picture>
 
 #### Routes
@@ -98,7 +98,7 @@ Generated from this repository's own source tree: every count, route and module 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/data_flow-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/data_flow-light.svg">
-  <img alt="Routes diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/data_flow.svg">
+  <img alt="Routes diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/data_flow-motion.svg">
 </picture>
 
 #### Primitives
@@ -106,7 +106,7 @@ Generated from this repository's own source tree: every count, route and module 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/state_machine-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/state_machine-light.svg">
-  <img alt="Primitives diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/state_machine.svg">
+  <img alt="Primitives diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/state_machine-motion.svg">
 </picture>
 
 #### Composition
@@ -114,7 +114,7 @@ Generated from this repository's own source tree: every count, route and module 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/component_map-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/component_map-light.svg">
-  <img alt="Composition diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/component_map.svg">
+  <img alt="Composition diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/component_map-motion.svg">
 </picture>
 
 #### Build and tests
@@ -122,7 +122,7 @@ Generated from this repository's own source tree: every count, route and module 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/build-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/build-light.svg">
-  <img alt="Build and tests diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/build.svg">
+  <img alt="Build and tests diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/build-motion.svg">
 </picture>
 
 #### Workflow
@@ -130,7 +130,7 @@ Generated from this repository's own source tree: every count, route and module 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/workflow-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/workflow-light.svg">
-  <img alt="Workflow diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/workflow.svg">
+  <img alt="Workflow diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/workflow-motion.svg">
 </picture>
 
 #### Domain
@@ -138,7 +138,7 @@ Generated from this repository's own source tree: every count, route and module 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/domain-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/domain-light.svg">
-  <img alt="Domain diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/domain.svg">
+  <img alt="Domain diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/domain-motion.svg">
 </picture>
 
 #### Identity object
@@ -146,7 +146,7 @@ Generated from this repository's own source tree: every count, route and module 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/footer-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/footer-light.svg">
-  <img alt="Identity object diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/footer.svg">
+  <img alt="Identity object diagram for fullofshit" src="https://raw.githubusercontent.com/M4G3LL4N0/fullofshit/main/.github-art/surfaces/footer-motion.svg">
 </picture>
 
 <!-- TRILLIONX:presentation:end -->
